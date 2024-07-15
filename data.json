@@ -1,0 +1,115 @@
+[
+{
+    "id": 1,
+    "applicantName": "John",
+    "contractorContactDetails": {
+    "name": "Veer Contractor"
+    },
+    "propertyInfo": {
+    "propertyAddress": "12, Van st-L34V9x, Canada",
+    "lot": 2,
+    "legalDesc": "Initial project",
+    "propertyOwner": "Marry"
+    },
+    "propertyDesc": {
+    "type": "New building",
+    "scope": "Started constructing new home",
+    "estimation": 130000,
+    "projectStartDate": "2020-10-08",
+    "projectEndDate": "2022-02-13"
+    },
+    "permit": {
+    "type": "building permit",
+    "application": 110,
+    "fees": 10000,
+    "method": "credit card"
+    },
+    "status": "completed"
+},
+{
+    "id": 2,
+    "applicantName": "Abraham",
+    "applicantContactDetails": {
+    "phone": 5248795620,
+    "email": "abraham@test.com",
+    "address": "12, markim drive, Canada"
+    },
+    "propertyInfo": {
+    "propertyAddress": "40, Gerrard drive, Canada",
+    "lot": 2,
+    "legalDesc": "Rennovation",
+    "propertyOwner": "Henry"
+    },
+    "propertyDesc": {
+    "type": "Reconstuction",
+    "scope": "Started reconstruction",
+    "estimation": 80000,
+    "projectStartDate": "2022-02-15",
+    "projectEndDate": "2023-08-14"
+    },
+    "permit": {
+    "type": "building permit",
+    "application": 120,
+    "fees": 10000,
+    "method": "credit card"
+    },
+    "status": "completed"
+},
+{
+    "id": 3,
+    "applicantName": "Med",
+    "applicantContactDetails": {
+    "phone": 4782013622,
+    "email": "med@test.com",
+    "address": "12, Vanless dr, Canada"
+    },
+    "propertyInfo": {
+    "propertyAddress": "22, ford dr, Canada",
+    "lot": 2,
+    "legalDesc": "New tender",
+    "propertyOwner": "Alex"
+    },
+    "propertyDesc": {
+    "type": "Tender",
+    "scope": "New tender to construct homes",
+    "estimation": 250000,
+    "projectStartDate": "2023-08-14",
+    "projectEndDate": "2024-04-04"
+    },
+    "permit": {
+    "type": "building permit",
+    "application": 122,
+    "fees": 10000,
+    "method": "credit card"
+    },
+    "status": "pending"
+},
+{
+    "id": 4,
+    "applicantName": "Ram",
+    "applicantContactDetails": {
+    "phone": 8976520147,
+    "email": "ram@test.com",
+    "address": "12, kempenfelt, Canada"
+    },
+    "propertyInfo": {
+    "propertyAddress": "80, Augusta, Canada",
+    "lot": 2,
+    "legalDesc": "New home",
+    "propertyOwner": "Sam"
+    },
+    "propertyDesc": {
+    "type": "new building",
+    "scope": "started constructing new home",
+    "estimation": 250000,
+    "projectStartDate": "2023-02-14",
+    "projectEndDate": "2024-07-14"
+    },
+    "permit": {
+    "type": "building permit",
+    "application": 124,
+    "fees": 10000,
+    "method": "credit card"
+    },
+    "status": "pending"
+}]

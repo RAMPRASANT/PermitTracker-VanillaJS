@@ -1,5 +1,5 @@
 {
-  "name": "vanilla-sass-boilerplate",
+  "name": "PemitTracker-VanillaJS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,5 +11,8 @@
   "devDependencies": {
     "sass": "^1.66.1",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
   }
 }
