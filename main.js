@@ -88,6 +88,7 @@ function renderData() {
 
     permitDetails.forEach(item => {
         const card = document.createElement('div');
+        card.role = 'listitem'
         card.ariaRoleDescription = 'permit entries'
         card.tabIndex = 0
         card.classList.add('card');

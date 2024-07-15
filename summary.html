@@ -17,12 +17,14 @@
     <header>
         <div class="headerContainer">
             <div>
-                <h3 class="navTitle"> <a class="nav-link" href="index.html">Permit Tracker</a></h3>
+                <h3 class="navTitle" role="navigation" aria-roledescription='hyperlink' aria-labelledby='permit'> <a
+                        class="nav-link" href="index.html" id="permit">Permit Tracker</a></h3>
             </div>
             <div class="navLinks">
                 <nav>
                     <ul class="nav">
-                        <li class="nav-item"><a class="nav-link" href="#summary">Summary</a></li>
+                        <li class="nav-item" role="navigation" aria-roledescription='hyperlink'
+                            aria-labelledby='summary'><a class="nav-link" href="#summary" id="summary">Summary</a></li>
                     </ul>
                 </nav>
             </div>
@@ -32,7 +34,7 @@
         <section id="summary">
             <div class="Container">
                 <div class="summaryContainer">
-                    <span class="card" aria-roledescription="summary section" tabindex="0">
+                    <span class="card" role="span" aria-roledescription="summary section" tabindex="0">
                         <p id="totalPermits"></p>
                         <p id="pendingPermits"></p>
                     </span>
