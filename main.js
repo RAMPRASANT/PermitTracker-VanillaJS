@@ -100,7 +100,9 @@ function renderData() {
         })
 
         card.addEventListener('keypress', (e) => {
-            window.location.href = `/permitDetails.html?permitId=${card.classList[2].split('-')[1]}`
+            if (e.key === 'Enter') {
+                window.location.href = `/permitDetails.html?permitId=${card.classList[2].split('-')[1]}`
+            }
         })
 
         const title = document.createElement('h2');
